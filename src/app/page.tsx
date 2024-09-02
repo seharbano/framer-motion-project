@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 export default function Home() {
   return (
     <div className="flex justify-center items-center flex-col h-screen gap-6">
-      <h1 className="text-[50px] font-bold">Framer Motion</h1>
+      <h1 className="text-[50px] font-bold">Framerr Motion</h1>
       <motion.div className="h-[150px] bg-red-400 w-[150px]" initial={{ x: -100 }} animate={{ x: 100 }}
         transition={{ duration: 1 }} />
 
